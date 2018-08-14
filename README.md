@@ -13,7 +13,7 @@
 
 ### Lien Heroku
 
-Pour aller sur le site en *production*, merci de suivre ce lien : [Site de poney avec back-end](https://street-art-fans.herokuapp.com/)
+Pour aller sur le site en *production*, merci de suivre ce lien : [Landing page](https://street-art-fans.herokuapp.com/)
 
 Pour un meilleur rendu, préférez google chrome comme navigateur !  😉
 
