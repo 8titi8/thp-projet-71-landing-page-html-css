@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <title>TitiApp</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="images/png" href="image/logo.png">
+    <title>Street Design</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +12,8 @@
   </head>
 
   <body>
+    <%= render 'layouts/header' %>
     <%= yield %>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
