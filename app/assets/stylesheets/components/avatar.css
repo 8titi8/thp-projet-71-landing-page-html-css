@@ -1,0 +1,17 @@
+#avatar-small {
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 10px #575757;
+}
+
+#avatar-medium {
+  height: 65px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 10px #575757;
+}
+
+#avatar-large {
+  height: 90px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 10px #575757;
+}

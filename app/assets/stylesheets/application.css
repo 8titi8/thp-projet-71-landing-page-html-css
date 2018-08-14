@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+ /* style.css */
+/* --- Import Google Fonts stylesheets --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700|Roboto:400,500,700|Amatic+SC:400,700");
+/* --- Import Components stylesheets --- */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/tabs.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+
+
+/* --- Fonts --- */
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  font-family: "Open Sans", "Roboto", "Helvetica", "sans-serif";
+}
+
+main {
+  margin-top: 45px;
+}
+
+.bottom-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}

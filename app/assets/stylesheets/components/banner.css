@@ -1,0 +1,22 @@
+#banner {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background: linear-gradient(-225deg, rgba(230, 132, 174,0.6) 30%, rgba(121,203,202,0.6) 80%), url('/assets/wall.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-content {
+  text-align: left;
+  text-indent: 30%;
+}
+
+.banner-content .title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 90px;
+  color: #FFFFFF;
+}

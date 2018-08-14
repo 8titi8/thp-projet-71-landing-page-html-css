@@ -1,0 +1,17 @@
+.footer {
+  background-color: #77A1D3;
+  position: absolute;
+  height: 35px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+  .footer-item {
+    padding: 6px 10px;
+  }

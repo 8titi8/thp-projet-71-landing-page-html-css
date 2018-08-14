@@ -1,0 +1,67 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.tab-nav {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 800px;
+}
+
+
+.tab-nav p {
+  color: #373737;
+  margin: 0 0 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.tab-nav li {
+  color: #373737;
+  list-style-image: url('/assets/spray-sm.png');
+}
+
+.tab-nav label {
+  color: #373737;
+}
+
+.tab-nav .button {
+  position: relative;
+  left: 75%
+}
+
+.content > div {
+  display: none;
+  padding: 20px 25px 5px;
+}
+
+input { display: none; }
+
+label {
+  display: inline-block;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 3px solid #FFF;
+}
+
+label:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #E684AE;
+}
+
+input:checked + label {
+  background: #77A1D3;
+  color: #fff;
+}
+
+#tab1:checked ~ .content #content1,
+#tab2:checked ~ .content #content2,
+#tab3:checked ~ .content #content3 {
+  display: block;
+}
+
+@media screen and (max-width: 400px) { label {padding: 15px 10px;} }

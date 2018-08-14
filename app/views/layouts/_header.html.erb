@@ -2,7 +2,7 @@
   <div class="top-navbar">
     <nav class="navbar">
       <div class="navbar-logo">
-        <a href="#"><img id="logo" src="image/spray.png" alt="Logo"></a>
+        <a href="#"><%= image_tag('spray.png', alt: 'Logo', id: 'logo') %></a>
       </div>
       <div class="navbar-right" id="navigation">
         <ul class="navbar-right">
@@ -18,7 +18,7 @@
           <li class="nav-items-dropdown">
             <div class="dropdown">
               <div id="dropdown-button">
-                <img id="avatar-small" src="image/avatar.jpg" alt="Avatar">
+                <a href="#"><%= image_tag('avatar.jpg', alt: 'Avatar', id: 'avatar-small') %></a>
               </div>
               <div class="dropdown-menu">
                 <a class="dropdown-items" href="#">
